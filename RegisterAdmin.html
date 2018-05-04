@@ -17,29 +17,48 @@
     
     <header>
         <div class="container">
-        <h1>Registrarse</h1>
+        <h1>Registro de usuario</h1>
         </div>
     </header>
     
-  
+    <!*********Ingresar nombre y apellido******>
     <div class="container">
-        <form action="registrar-usuario.php" method="POST">
+        <form>
         <div class="form-group">
-            <label class="sr-only" for="Nombre">Nombre:</label>
+            <label class="sr-only" for="nombrecompleto">Nombre:</label>
             <input class="form-control" id="Nombre" type="text" placeholder="Nombre(s)">
             </div>
         <div class="form-group">    
-            <label class="sr-only" for="Apellido">Apellido:</label>
-            <input class="form-control" id="Apellido" type="text" placeholder="Apellido">
+            <label class="sr-only" for="apellidopaterno">Apellido paterno:</label>
+            <input class="form-control" id="apellidopaterno" type="text" placeholder="apellido paterno">
             </div>
-            </div>
-        </form>    
-
-        <div class="container"> 
-        <form action="registrar-usuario.php" method="POST" class="form-inline">
         <div class="form-group">
-            <label class="sr-only" for="username">Usuario</label>
-            <input class="form-control" id="username" type="text" placeholder="Usuario">
+            <label class="sr-only" for="apellidomaterno">Apellido materno</label>
+            <input class="form-control" id="apellidomaterno"  type="text" placeholder="apellidomaterno">
+            </div>
+        </div>
+        </form>
+
+    <!**************Peso y estatura***********>
+    <div class="container">
+        <form>
+        <div class="form-group">
+            <label class="sr-only" for="peso">Peso</label>
+            <input class="form-control" id="peso" type="text" placeholder="peso">
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="estatura">Estatura</label>
+            <input class="form-control" id="estatura" type="text" placeholder="estatura">
+        </div>
+        </form>
+    </div>    
+    
+    <!*******Ingresar email********!>
+        <div class="container"> 
+        <form action="" class="form-inline">
+        <div class="form-group">
+            <label class="sr-only" for="usuario">Usuario</label>
+            <input class="form-control" id="Usuario" type="text" placeholder="Usuario">
             </div>
         <div class="form-group">
             <div class="input-group">
@@ -52,15 +71,15 @@
             
             </div>
     <br>
-
+    <!*********Ingresar password********>
     <div class="container">
-        <form action="registrar-usuario.php" method="POST">
+        <form>
         <div class="form-group">
             <label class="sr-only" for="password">Password</label>
-            <input class="form-control" id="password" type="password" placeholder="Ingrese su password">
+            <input class="form-control" id="Password" type="password" placeholder="Ingrese su password">
             </div>
         <div class="form-group">
-            <label class="sr-only" for="Repetir">Repetir</label>
+            <label class="sr-only" for="repetir">Repetir</label>
             <input class="form-control" id="Repetir" type="password" placeholder="Reingrese su password">
             </div>
             
